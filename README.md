@@ -4,13 +4,14 @@
 https://docs.github.com/en/actions/quickstart
 
 ## Creating your first workflow
-```
+
 Create a .github/workflows directory in your repository on GitHub if this directory does not already exist.
 
 In the .github/workflows directory, create a file named github-actions-demo.yml. For more information, see "Creating new files."
 
 Copy the following YAML contents into the github-actions-demo.yml file:
 
+```
 YAML
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
